@@ -56,3 +56,27 @@
 .all {
     font-style: italic;
 }
+
+/* Table styling */
+.cast {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cast th,
+.cast td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+.cast th {
+    background-color: #444;
+    color: white;
+}
+
+.cast tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
